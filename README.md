@@ -25,12 +25,6 @@ Data was captured using live motion capture of team members attempting to do fre
 #### Results:
 An average accuracy of 67% was achieved in predicting free throw outcomes based on skeletal movements.
 
-#### Sample Code:
-```python
-# Extracting a representative code snippet from the notebook for the GitHub README
-code_snippet_example = code_snippets[0]  # Just taking the first code snippet as an example
-```
-
 #### Visualizations:
 [Note: The notebook contains visualizations detailing the analysis and outcomes. Please check the specific sections for graphical representations.]
 
