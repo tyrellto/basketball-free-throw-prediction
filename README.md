@@ -20,7 +20,7 @@ Data was captured using live motion capture of team members attempting to do fre
 
 3. **Modeling**:
    - CatBoost was chosen as the primary model to predict the outcome of the free throws. On average, an accuracy of 67% was achieved across all team members. 
-   - Future considerations: Given the time series nature of the data, models like LSTMs, GRUs, or transformer-based architectures could be explored further to learn from the long-spatial and short-spatial relationships between the joints across different time stamps.
+   - Future considerations: Given the time series nature of the data, models like LSTMs, GRUs, or transformer-based architectures could be explored further to learn from the long-term and short-term temporal/spatial relationships between the joints across different time stamps.
 
 #### Results:
 An average accuracy of 67% was achieved in predicting free throw outcomes based on skeletal movements.
