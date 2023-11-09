@@ -4,7 +4,7 @@
 ### Basketball Free Throw Prediction using Skeletal Movement
 
 #### Project Overview:
-**My role was the main machine learning engineer in my group that proposed and led the data acquisition phase and the model designing phase. ** The primary objective was to predict and determine whether a person is going to make a free throw based on their skeletal movement. 
+**My role was the main machine learning engineer in my group that proposed and led the data acquisition phase and the model designing phase.** The primary objective was to predict and determine whether a person is going to make a free throw based on their skeletal movement. 
 
 #### Data Collection:
 Data was captured using live motion capture of team members attempting to do basketball free throws from a designated distance. The software employed for this task was **Brekel Body v3** [link](https://brekel.com/brekel-body-v3/) in conjunction with three depth perception Azure cameras. Brekel Body v3 contains pretrained body tracking models to use for inference with a NVIDIA GPU(A high end one like a RTX 2080 is recommended). We used one of our teammates computers to do inference, where we had the three cameras were connected to his PC.
