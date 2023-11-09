@@ -8,13 +8,7 @@
   - [Feature Selection](#feature-selection)
   - [Modeling](#modeling)
 - [Key Takeaways / Future Work](#key-takeaways--future-work)
-  - [Low Quality of Samples](#low-quality-of-samples)
-  - [Low Number of Samples](#low-number-of-samples)
-  - [High Noise to Signal Ratio](#high-noise-to-signal-ratio)
-  - [Needs More Sophisticated Methods](#needs-more-sophisticated-methods-for-determining-free-throw-off-skeletal-data)
-  - [Need Better Hardware](#need-better-hardware)
-  - [Needs Better Motion Capture Techniques](#needs-better-motion-capture-techniques)
-- [TL;DR](#tldr)
+
 
 ## Basketball Free Throw Prediction using Skeletal Movement
 
