@@ -7,12 +7,13 @@
 This project was undertaken as a part of the senior design initiative. The primary objective was to predict and determine whether a person is going to make a free throw based on their skeletal movement. 
 
 #### Data Collection:
-Data was captured using live motion capture of team members attempting to do free throws from a designated distance. The software employed for this task was **Brekel Body v3** in conjunction with three depth perception cameras.
+Data was captured using live motion capture of team members attempting to do free throws from a designated distance. The software employed for this task was **Brekel Body v3** in conjunction with three depth perception Azure cameras.
 
 #### Methodology:
 
 1. **Data Preprocessing**: 
    - Each sample taken from individuals was transformed from time series skeletal movement data into a flattened vector representing all joints (including elbow, shoulder, neck, wrist, knees, ankles, hip, etc.).
+   - Kept track of imbalanced classes(miss/success) among 3 of my teammates
    
 2. **Feature Selection**:
    - Mutual information was employed to discern which joints contributed most significantly to the model's performance. This choice was made despite the challenges posed by non-stationary, non-linear data. In hindsight, other metrics or techniques like auto-encoders to map the numerous features onto a latent space or UMAP for visualization could have been explored.
