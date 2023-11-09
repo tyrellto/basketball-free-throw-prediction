@@ -1,14 +1,14 @@
 # Project-Giannis---Senior-Design
 ---
 
-### Basketball Free Throw Prediction using Skeletal Movement
+## Basketball Free Throw Prediction using Skeletal Movement
 
-#### Project Overview:
+### Project Overview:
 The primary objective was to predict and determine whether a person is going to make a free throw based on their skeletal movement. 
 
 **My role was the main machine learning engineer in my group that proposed and led the data acquisition phase and the model designing phase.** 
 
-#### Data Collection:
+### Data Collection:
 Data was captured using live motion capture of team members attempting to do basketball free throws from a designated distance. The software employed for this task was **Brekel Body v3** [link](https://brekel.com/brekel-body-v3/) in conjunction with three depth perception Azure cameras. Brekel Body v3 contains pretrained body tracking models to use for inference with a NVIDIA GPU(A high end one like a RTX 2080 is recommended). We used one of our teammates computers to do inference, where we had the three cameras were connected to his PC.
 
 Below is the type of camera that we used: [link to buy](https://www.microsoft.com/en-us/d/azure-kinect-dk/8pp5vxmd9nhq?activetab=pivot:overviewtab)
@@ -31,7 +31,7 @@ We would position the cameras in a specific orientation like in the following di
   <img width="400" alt="Screenshot 2023-11-09 at 2 58 41 PM" src="https://github.com/tyrellto/Giannis-Free-Throw-Prediction/assets/61175343/dbc7bf0a-bab1-4543-892d-2129e8f65f80">
 </p>
 
-#### Methodology:
+### Methodology:
 
 1. **Data Preprocessing**: [code](https://github.com/tyrellto/Giannis-Free-Throw-Prediction/blob/main/sorting.ipynb)
    - Each sample taken from individuals was transformed from time series skeletal movement data into a flattened vector representing all joints (including elbow, shoulder, neck, wrist, knees, ankles, hip, etc.).
@@ -55,7 +55,7 @@ An average accuracy of 67% was achieved in predicting free throw outcomes based 
 - Brekel Body Software
 - Depth Perception Camera
 
-#### Key Takeaways / Future Work: 
+### Key Takeaways / Future Work: 
 
 **TL;DR: To tackle the challenges of applying machine learning to free throw predictions from skeletal movement data:**
 
