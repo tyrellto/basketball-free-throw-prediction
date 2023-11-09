@@ -44,7 +44,7 @@ We would position the cameras in a specific orientation like in the following di
    - Mutual information was employed to discern which joints contributed most significantly to the model's performance. This choice was made despite the challenges posed by non-stationary, non-linear data. In hindsight, other metrics or techniques like auto-encoders to map the numerous features onto a latent space or UMAP for visualization could have been explored.
    ![image](https://github.com/dominusoctane/Project-Giannis---Senior-Design/assets/61175343/b5fa3ea5-6c07-4828-8afb-0de8fc309da6)
 
-3. **Modeling**: [code](https://github.com/tyrellto/Giannis-Free-Throw-Prediction/blob/main/FreeThrowTabularPredict.ipynb)
+3. **Modeling**: [code](https://github.com/tyrellto/Giannis-Free-Throw-Prediction/blob/main/freethrow_tabular_predict.ipynb)
    - CatBoost was chosen as the primary model to predict the outcome of the free throws. On average, an accuracy of 67% was achieved across all team members. 
    - Future considerations: Given the time series nature of the data, models like LSTMs, GRUs, or transformer-based architectures could be explored further to learn from the long-term and short-term temporal/spatial relationships between the joints across different time stamps.
 
