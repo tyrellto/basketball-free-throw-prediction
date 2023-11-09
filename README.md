@@ -12,7 +12,7 @@ Below is the type of camera that we used: [link to buy](https://www.microsoft.co
 ![image](https://github.com/tyrellto/Giannis-Free-Throw-Prediction/assets/61175343/0500f90c-7360-4b12-bc76-3217dc4fc832)
 
 Here is an example of how the data is collected with the following video as reference (not me in video):
-[![Motion Capture Example](http://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/NBZdTpLwhLA?si=hGwWBVILpQoVawiM "Motion Capture Example")
+[![Motion Capture Example](http://img.youtube.com/vi/NBZdTpLwhLA/0.jpg)](http://www.youtube.com/watch?v=NBZdTpLwhLA "Motion Capture Example")
 
 
 
