@@ -7,19 +7,23 @@
 This project was undertaken as a part of the senior design initiative. The primary objective was to predict and determine whether a person is going to make a free throw based on their skeletal movement. 
 
 #### Data Collection:
-Data was captured using live motion capture of team members attempting to do free throws from a designated distance. The software employed for this task was **Brekel Body v3** in conjunction with three depth perception Azure cameras.
+Data was captured using live motion capture of team members attempting to do basketball free throws from a designated distance. The software employed for this task was **Brekel Body v3** in conjunction with three depth perception Azure cameras.
+Below is the type of camera that we used: ['link to buy'](https://www.microsoft.com/en-us/d/azure-kinect-dk/8pp5vxmd9nhq?activetab=pivot:overviewtab)
+![image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tegakari.net%2Fen%2F2019%2F07%2Fazure_kinect_dk%2F&psig=AOvVaw2xpPitB8SALbGnjQEAulEN&ust=1699646216611000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNCCrJbat4IDFQAAAAAdAAAAABAJ)
+
+Here is an example of how the data is collected with the following video as reference (not me in video):
+
 
 #### Methodology:
 
-1. **Data Preprocessing**: 
+1. **Data Preprocessing**: ['code'](https://github.com/tyrellto/Giannis-Free-Throw-Prediction/blob/main/sorting.ipynb)
    - Each sample taken from individuals was transformed from time series skeletal movement data into a flattened vector representing all joints (including elbow, shoulder, neck, wrist, knees, ankles, hip, etc.).
-   - Kept track of imbalanced classes(miss/success) among 3 of my teammates
    
 2. **Feature Selection**:
    - Mutual information was employed to discern which joints contributed most significantly to the model's performance. This choice was made despite the challenges posed by non-stationary, non-linear data. In hindsight, other metrics or techniques like auto-encoders to map the numerous features onto a latent space or UMAP for visualization could have been explored.
    ![image](https://github.com/dominusoctane/Project-Giannis---Senior-Design/assets/61175343/b5fa3ea5-6c07-4828-8afb-0de8fc309da6)
 
-3. **Modeling**:
+3. **Modeling**: ['code'](https://github.com/tyrellto/Giannis-Free-Throw-Prediction/blob/main/FreeThrowTabularPredict.ipynb)
    - CatBoost was chosen as the primary model to predict the outcome of the free throws. On average, an accuracy of 67% was achieved across all team members. 
    - Future considerations: Given the time series nature of the data, models like LSTMs, GRUs, or transformer-based architectures could be explored further to learn from the long-term and short-term temporal/spatial relationships between the joints across different time stamps.
 
