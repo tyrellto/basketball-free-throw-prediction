@@ -35,7 +35,10 @@ We would position the cameras in a specific orientation like in the following di
 
 1. **Data Preprocessing**: [code](https://github.com/tyrellto/Giannis-Free-Throw-Prediction/blob/main/sorting.ipynb)
    - Each sample taken from individuals was transformed from time series skeletal movement data into a flattened vector representing all joints (including elbow, shoulder, neck, wrist, knees, ankles, hip, etc.).
-   
+  <p align="center">
+    <img width="600" alt="Screenshot 2023-11-09 at 3 43 13 PM" src="https://github.com/tyrellto/Giannis-Free-Throw-Prediction/assets/61175343/be9108c0-cd62-481d-865d-115a90bff827">
+  </p>
+
 2. **Feature Selection**:
    - Mutual information was employed to discern which joints contributed most significantly to the model's performance. This choice was made despite the challenges posed by non-stationary, non-linear data. In hindsight, other metrics or techniques like auto-encoders to map the numerous features onto a latent space or UMAP for visualization could have been explored.
    ![image](https://github.com/dominusoctane/Project-Giannis---Senior-Design/assets/61175343/b5fa3ea5-6c07-4828-8afb-0de8fc309da6)
