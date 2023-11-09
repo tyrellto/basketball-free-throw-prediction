@@ -12,21 +12,21 @@ Data was captured using live motion capture of team members attempting to do bas
 Below is the type of camera that we used: [link to buy](https://www.microsoft.com/en-us/d/azure-kinect-dk/8pp5vxmd9nhq?activetab=pivot:overviewtab)
 
 <p align="center">
-  <img src="https://github.com/tyrellto/Giannis-Free-Throw-Prediction/assets/61175343/0500f90c-7360-4b12-bc76-3217dc4fc832" width="600" alt="Azure Kinect KS"/>
+  <img src="https://github.com/tyrellto/Giannis-Free-Throw-Prediction/assets/61175343/0500f90c-7360-4b12-bc76-3217dc4fc832" width="400" alt="Azure Kinect KS"/>
 </p>
 
 Here is an example of how the data is collected with the following video as reference (not me in video):
 
 <p align="center">
   <a href="http://www.youtube.com/watch?v=NBZdTpLwhLA" title="Motion Capture">
-    <img src="http://img.youtube.com/vi/NBZdTpLwhLA/0.jpg" width="600" alt="Motion Capture"/>
+    <img src="http://img.youtube.com/vi/NBZdTpLwhLA/0.jpg" width="400" alt="Motion Capture"/>
   </a>
 </p>
 
 We would position the cameras in a specific orientation like in the following diagram with the middle camera in the back, and side cameras 25-45 degrees angled from the center (not to scale):
 
 <p align="center">
-  <img width="533" alt="Screenshot 2023-11-09 at 2 58 41 PM" src="https://github.com/tyrellto/Giannis-Free-Throw-Prediction/assets/61175343/dbc7bf0a-bab1-4543-892d-2129e8f65f80">
+  <img width="400" alt="Screenshot 2023-11-09 at 2 58 41 PM" src="https://github.com/tyrellto/Giannis-Free-Throw-Prediction/assets/61175343/dbc7bf0a-bab1-4543-892d-2129e8f65f80">
 </p>
 
 
