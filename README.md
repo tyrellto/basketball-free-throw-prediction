@@ -55,7 +55,7 @@ An average accuracy of 67% was achieved in predicting free throw outcomes based 
 - Brekel Body Software
 - Depth Perception Camera
 
-### Key Takeaways / Future Work: 
+#### Key Takeaways / Future Work: 
 When applying machine learning models to determine if a person can make a free throw based on skeletal movement data, I face several challenges. Here's a detailed breakdown of each problem and the approaches I could take to address them:
 
 1. **Low Quality of Samples**:
