@@ -44,17 +44,6 @@ We would position the cameras in a specific orientation like in the following di
    - CatBoost was chosen as the primary model to predict the outcome of the free throws. On average, an accuracy of 67% was achieved across all team members. 
    - Future considerations: Given the time series nature of the data, models like LSTMs, GRUs, or transformer-based architectures could be explored further to learn from the long-term and short-term temporal/spatial relationships between the joints across different time stamps.
 
-#### Results:
-An average accuracy of 67% was achieved in predicting free throw outcomes based on skeletal movements.
-
-#### Visualizations:
-[Note: The notebooks contain visualizations detailing the analysis and outcomes. Please check the specific sections for graphical representations.]
-
-#### Technologies Used:
-- Python
-- Brekel Body Software
-- Depth Perception Camera
-
 ### Key Takeaways / Future Work: 
 
 **TL;DR: To tackle the challenges of applying machine learning to free throw predictions from skeletal movement data:**
