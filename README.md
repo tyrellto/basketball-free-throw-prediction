@@ -9,14 +9,18 @@ This project was undertaken as a part of the senior design initiative. The prima
 #### Data Collection:
 Data was captured using live motion capture of team members attempting to do basketball free throws from a designated distance. The software employed for this task was **Brekel Body v3** in conjunction with three depth perception Azure cameras.
 Below is the type of camera that we used: [link to buy](https://www.microsoft.com/en-us/d/azure-kinect-dk/8pp5vxmd9nhq?activetab=pivot:overviewtab)
-![image](https://github.com/tyrellto/Giannis-Free-Throw-Prediction/assets/61175343/0500f90c-7360-4b12-bc76-3217dc4fc832)
 
 <p align="center">
-  <img src="https://github.com/tyrellto/Giannis-Free-Throw-Prediction/assets/61175343/0500f90c-7360-4b12-bc76-3217dc4fc832" width="200" alt="Azure Kinect KS"/>
+  <img src="https://github.com/tyrellto/Giannis-Free-Throw-Prediction/assets/61175343/0500f90c-7360-4b12-bc76-3217dc4fc832" width="600" alt="Azure Kinect KS"/>
 </p>
 
 Here is an example of how the data is collected with the following video as reference (not me in video):
-[![Motion Capture Example](http://img.youtube.com/vi/NBZdTpLwhLA/0.jpg)](http://www.youtube.com/watch?v=NBZdTpLwhLA "Motion Capture Example")
+
+<p align="center">
+  <a href="http://www.youtube.com/watch?v=NBZdTpLwhLA" title="Motion Capture">
+    <img src="http://img.youtube.com/vi/NBZdTpLwhLA/0.jpg" width="600" alt="Motion Capture"/>
+  </a>
+</p>
 
 
 
