@@ -56,6 +56,32 @@ An average accuracy of 67% was achieved in predicting free throw outcomes based 
 - Depth Perception Camera
 
 ### Key Takeaways / Future Work: 
-- If I had more time 
+When applying machine learning models to determine if a person can make a free throw based on skeletal movement data, I face several challenges. Here's a detailed breakdown of each problem and the approaches I could take to address them:
+
+1. **Low Quality of Samples**:
+   - Problem: The quality of skeletal movement data is crucial. Low-quality data can be due to poor resolution, inaccuracies in skeletal tracking, or irrelevant features being captured.
+   - Approach: I can enhance data quality by preprocessing the data with filters and normalization techniques. Implementing techniques like Principal Component Analysis (PCA) can help in focusing on the most relevant features. Furthermore, I might use advanced data augmentation methods to artificially enhance the dataset, like simulating variations in the free throw techniques.
+
+2. **Low Number of Samples**:
+   - Problem: Machine learning models require a substantial amount of data to learn effectively. A low number of samples can lead to overfitting, where the model learns the training data too well and performs poorly on unseen data.
+   - Approach: To combat this, I can utilize data augmentation techniques to increase the dataset size artificially, such as by slightly altering the existing samples or using generative models to create new samples. Another avenue is to implement transfer learning where a model trained on a large dataset in a similar domain is adapted to my specific task.
+
+3. **High Noise to Signal Ratio**:
+   - Problem: A high amount of noise in the data can obscure the underlying patterns that correlate with successful free throws, making it challenging for the model to learn effectively.
+   - Approach: To improve the signal-to-noise ratio, I could apply noise reduction techniques such as smoothing filters or denoising autoencoders. Additionally, collecting more targeted data where the noise factors are controlled or minimized during the data collection phase could also be beneficial.
+
+4. **Needs More Sophisticated Methods for Determining Free Throw Off Skeletal Data**:
+   - Problem: Basic machine learning models might not capture the complexity of the movements that predict a successful free throw.
+   - Approach: I should explore more sophisticated models like deep learning, specifically Recurrent Neural Networks (RNNs) or Long Short-Term Memory networks (LSTMs) that can better capture temporal dependencies in movement data. These models are more suited to sequence prediction problems like analyzing time-series skeletal movement data.
+
+5. **Need Better Hardware**:
+   - Problem: Accurate skeletal movement capture often requires high-end hardware, which can be cost-prohibitive.
+   - Approach: I could seek partnerships or grants to access better hardware. Alternatively, I can research and develop algorithms that are more robust to lower-quality data, perhaps by focusing on core movement patterns that are less dependent on high-resolution data.
+
+6. **Needs Better Motion Capture Techniques**:
+   - Problem: The precision of motion capture techniques can significantly impact the quality of skeletal data. Inferior motion capture can introduce errors and inaccuracies.
+   - Approach: I can explore newer motion capture technologies that provide higher precision without dramatically increasing costs. Using multiple sensors or cameras can also help improve the data quality. Additionally, incorporating calibration routines and error-correction algorithms in the data processing pipeline can mitigate the effects of inaccurate motion capture.
+
+For each of these challenges, the common theme is to either improve the quality and quantity of data or to enhance the model's ability to learn from suboptimal data. This often involves a combination of more sophisticated data processing techniques, better hardware, and more advanced machine learning models. Collaboration with domain experts in sports science and kinesiology can also provide valuable insights into which aspects of the data are most critical for predicting free throw success, leading to more targeted data collection and feature engineering.
 
 ---
