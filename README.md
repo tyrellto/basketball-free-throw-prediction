@@ -46,17 +46,6 @@ We would position the cameras in a specific orientation like in the following di
 
 ### Key Takeaways / Future Work: 
 
-**TL;DR: To tackle the challenges of applying machine learning to free throw predictions from skeletal movement data:**
-
-1. **Improve Sample Quality**: Use data preprocessing to filter out noise and focus on relevant features; consider data augmentation to enhance the dataset.
-2. **Increase Sample Size**: Employ data augmentation and transfer learning to bolster the training set and prevent overfitting.
-3. **Reduce Noise**: Implement noise reduction techniques and collect higher quality data with less background noise.
-4. **Employ Advanced Models**: Utilize sophisticated neural networks like RNNs or LSTMs to capture the complex temporal patterns in skeletal data.
-5. **Access Better Hardware**: Seek funding for high-quality motion capture hardware or develop algorithms that perform well with lower-quality data.
-6. **Enhance Motion Capture Techniques**: Invest in advanced motion capture technology and improve data accuracy with calibration and error-correction algorithms.
-
-
-
 When applying machine learning models to determine if a person can make a free throw based on skeletal movement data, I faced several challenges. Here's a detailed breakdown of each problem and the approaches I could take to address them:
 
 1. **Low Quality of Samples**:
@@ -68,7 +57,7 @@ When applying machine learning models to determine if a person can make a free t
    - **Approach:**: To combat this, I can utilize data augmentation techniques to increase the dataset size artificially, such as by slightly altering the existing samples or using generative models to create new samples. Another avenue is to implement transfer learning where a model trained on a large dataset in a similar domain is adapted to my specific task.
 
 3. **High Noise to Signal Ratio**:
-   - **Problem:**: A high amount of noise in the data can obscure the underlying patterns that correlate with successful free throws, making it challenging for the model to learn effectively.**Notably, each person's free throw form is unique.**
+   - **Problem:**: A high amount of noise in the data can obscure the underlying patterns that correlate with successful free throws, making it challenging for the model to learn effectively. **Notably, each person's free throw form is unique.**
    - **Approach:**: To improve the signal-to-noise ratio, I could apply noise reduction techniques such as smoothing filters or denoising autoencoders. Additionally, collecting more targeted data where the noise factors are controlled or minimized during the data collection phase could also be beneficial.
 
 4. **Needs More Sophisticated Methods for Determining Free Throw Off Skeletal Data**:
@@ -83,6 +72,14 @@ When applying machine learning models to determine if a person can make a free t
    - **Problem:** The precision of motion capture techniques can significantly impact the quality of skeletal data. Inferior motion capture can introduce errors and inaccuracies.
    - **Approach:** I can explore newer motion capture technologies that provide higher precision without dramatically increasing costs. Using multiple sensors or cameras can also help improve the data quality. Additionally, incorporating calibration routines and error-correction algorithms in the data processing pipeline can mitigate the effects of inaccurate motion capture.
 
-For each of these challenges, the common theme is to either improve the quality and quantity of data or to enhance the model's ability to learn from suboptimal data. This often involves a combination of more sophisticated data processing techniques, better hardware, and more advanced machine learning models. Collaboration with domain experts in sports science and kinesiology can also provide valuable insights into which aspects of the data are most critical for predicting free throw success, leading to more targeted data collection and feature engineering.
+**TL;DR: To tackle the challenges of applying machine learning to free throw predictions from skeletal movement data:**
+
+1. **Improve Sample Quality**: Use data preprocessing to filter out noise and focus on relevant features; consider data augmentation to enhance the dataset.
+2. **Increase Sample Size**: Employ data augmentation and transfer learning to bolster the training set and prevent overfitting.
+3. **Reduce Noise**: Implement noise reduction techniques and collect higher quality data with less background noise.
+4. **Employ Advanced Models**: Utilize sophisticated neural networks like RNNs or LSTMs to capture the complex temporal patterns in skeletal data.
+5. **Access Better Hardware**: Seek funding for high-quality motion capture hardware or develop algorithms that perform well with lower-quality data.
+6. **Enhance Motion Capture Techniques**: Invest in advanced motion capture technology and improve data accuracy with calibration and error-correction algorithms.
+
 
 ---
