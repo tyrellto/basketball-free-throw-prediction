@@ -1,7 +1,7 @@
 # Project-Giannis---Senior-Design
 ---
 
-### Free Throw Prediction using Skeletal Movement
+### Basketball Free Throw Prediction using Skeletal Movement
 
 #### Project Overview:
 This project was undertaken as a part of the senior design initiative. The primary objective was to predict and determine whether a person is going to make a free throw based on their skeletal movement. 
