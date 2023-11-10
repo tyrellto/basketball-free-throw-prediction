@@ -17,8 +17,6 @@ The primary objective was to predict and determine whether a person is going to 
 
 **My role was the main machine learning engineer in my group that proposed and led the data acquisition phase and the model designing phase.** 
 
-![image](https://github.com/tyrellto/Giannis-Free-Throw-Prediction/assets/61175343/9e6c03d2-3c26-4ad8-8c60-9c6d0e012687)
-
 <p align="center">
   <img src="https://github.com/tyrellto/Giannis-Free-Throw-Prediction/assets/61175343/9e6c03d2-3c26-4ad8-8c60-9c6d0e012687" width="400" alt="MJ Freethrow"/>
 </p>
