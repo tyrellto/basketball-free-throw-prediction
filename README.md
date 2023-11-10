@@ -48,7 +48,7 @@ We would position the cameras in a specific orientation like in the following di
 
 1. **Data Preprocessing**: [code](https://github.com/tyrellto/Giannis-Free-Throw-Prediction/blob/main/sorting.ipynb)
    - Each sample taken from individuals was transformed from time series skeletal movement data into a flattened vector representing all joints (including elbow, shoulder, neck, wrist, knees, ankles, hip, etc.).
-   - The figure below shows the high level process, where each recording for a person has all instances in time for all joints flattened to one singular feature vector:
+   - The figure below shows the high level process, where each recording for a person for all joints' time series data flattened to one singular feature vector:
   <p align="center">
     <img width="1000" alt="Screenshot 2023-11-09 at 3 43 13 PM" src="https://github.com/tyrellto/Giannis-Free-Throw-Prediction/assets/61175343/be9108c0-cd62-481d-865d-115a90bff827">
   </p>
