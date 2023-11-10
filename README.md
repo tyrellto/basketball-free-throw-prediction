@@ -14,7 +14,8 @@
 
 ### Project Overview:
 The primary objective was to predict and determine whether a person is going to make a free throw based on their skeletal movement. 
-This is an interesting problem because everyone's body proportions are unique, so finding a prototype for both holistic and individual predictions would be novel.
+This is an interesting problem because everyone's body proportions are unique, and have varying free throw expertise; resulting in different forms. 
+Thus, finding a prototype for both holistic and individual predictions would be novel.
 
 **My role was the lead machine learning engineer in my group that proposed and led the data acquisition phase and the model designing phase.** 
 
