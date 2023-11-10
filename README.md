@@ -24,7 +24,7 @@ Thus, finding a prototype for both holistic and individual predictions would be 
 </p>
 
 ### Data Collection:
-Data was captured using live motion capture of team members attempting to do basketball free throws from a designated distance. The software employed for this task was **Brekel Body v3** [link](https://brekel.com/brekel-body-v3/) in conjunction with three depth perception Azure cameras. Brekel Body v3 contains pretrained body tracking models to use for inference with a NVIDIA GPU(A high end one like a RTX 2080 is recommended). We used one of our teammates computers to do inference, where we had the three cameras connected to his PC.
+Data was captured using live motion capture of team members attempting to do basketball free throws from a designated distance. The software employed for this task was **Brekel Body v3** [link](https://brekel.com/brekel-body-v3/) in conjunction with three depth perception Azure cameras. Brekel Body v3 contains pretrained body tracking models to use for inference with a NVIDIA GPU(A high end one like a RTX 2080 is recommended). We used one of our teammates computers to do inference, where we had the three cameras connected to his PC. We would manually label if a person made a shot as '1' or not as '0' in person after each skeletal movement recording. In our process, we tried to record more misses than successes even though there will be a class imbalance. My intuition was to treat the successes as the anomalies so that the supervised machine learning approach could learn all the possible wrong forms for freethrows, helping it to discern the differences.
 
 Below is the type of camera that we used: [link to buy](https://www.microsoft.com/en-us/d/azure-kinect-dk/8pp5vxmd9nhq?activetab=pivot:overviewtab)
 
@@ -65,7 +65,7 @@ We would position the cameras in a specific orientation like in the following di
 
 ### Key Takeaways / Future Work: 
 
-When applying machine learning models to determine if a person can make a free throw based on skeletal movement data, I faced several challenges. Here's a detailed breakdown of each problem and the approaches I could take to address them:
+When applying machine learning models to determine if a person can make a free throw based on skeletal movement data, we faced several challenges. Here's a detailed breakdown of each problem and the approaches I could take to address them as the lead machine learning role:
 
 1. **Low Quality of Samples**:
    - **Problem:**: The quality of skeletal movement data is crucial. Low-quality data can be due to poor resolution, inaccuracies in skeletal tracking, or irrelevant features being captured.
